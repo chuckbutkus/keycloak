@@ -97,3 +97,7 @@ quarkus/data/*.db
 
 .env
 .env.test
+# OpenHands theme build artifacts
+/target/
+/build-tmp/
+*.jar
