@@ -1,0 +1,204 @@
+:root {
+  --bg-dark: #0c0e10;
+  --bg-light: #292929;
+  --bg-input: #393939;
+  --bg-workspace: #1f2228;
+  --border: #3c3c4a;
+  --text-editor-base: #9099ac;
+  --text-editor-active: #c4cbda;
+  --bg-editor-sidebar: #24272e;
+  --bg-editor-active: #31343d;
+  --border-editor-sidebar: #3c3c4a;
+  --bg-neutral-muted: #afb8c133;
+  
+  /* OpenHands colors */
+  --primary: #C9B974;
+  --logo: #CFB755;
+  --base: #0D0F11;
+  --base-secondary: #24272E;
+  --danger: #E76A5E;
+  --success: #A5E75E;
+  --basic: #9099AC;
+  --tertiary: #454545;
+  --tertiary-light: #B7BDC2;
+  --content: #ECEDEE;
+  --content-2: #F9FBFE;
+}
+
+body {
+  margin: 0;
+  font-family:
+    -apple-system, "SF Pro", BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--base) !important;
+  color: var(--content);
+}
+
+.openhands-theme {
+  background-color: var(--base);
+  color: var(--content);
+}
+
+.openhands-login-page {
+  background-color: var(--base);
+}
+
+.openhands-card {
+  background-color: var(--base-secondary);
+  border-radius: 5px;
+  border: 1px solid var(--border);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.openhands-logo img {
+  max-height: 50px;
+}
+
+.openhands-input {
+  background-color: var(--tertiary) !important;
+  border: 1px solid var(--border) !important;
+  color: var(--content) !important;
+  border-radius: 5px !important;
+}
+
+.openhands-input:focus {
+  border-color: var(--primary) !important;
+  box-shadow: 0 0 0 0.2rem rgba(201, 185, 116, 0.25) !important;
+}
+
+.openhands-button {
+  background-color: var(--tertiary);
+  border: 1px solid var(--border);
+  color: var(--content);
+  border-radius: 5px;
+  transition: all 0.2s ease;
+}
+
+.openhands-button:hover {
+  background-color: var(--tertiary-light);
+}
+
+.openhands-button-primary {
+  background-color: var(--primary) !important;
+  border-color: var(--primary) !important;
+  color: var(--base) !important;
+}
+
+.openhands-button-primary:hover {
+  background-color: var(--logo) !important;
+  border-color: var(--logo) !important;
+}
+
+#kc-header {
+  background-color: var(--base);
+  padding: 20px 0;
+}
+
+#kc-header-wrapper {
+  font-size: 24px;
+  font-weight: bold;
+  color: var(--content-2);
+}
+
+#kc-content {
+  background-color: var(--base-secondary);
+  padding: 20px;
+  border-radius: 5px;
+}
+
+#kc-form-login {
+  margin-top: 20px;
+}
+
+#kc-info {
+  color: var(--content);
+}
+
+#kc-form-options .checkbox {
+  color: var(--content);
+}
+
+#kc-terms-text {
+  color: var(--content);
+}
+
+.form-group label {
+  color: var(--content);
+}
+
+.login-pf-page .login-pf-header h1 {
+  color: var(--content-2);
+}
+
+.alert-error {
+  background-color: var(--danger);
+  border-color: var(--danger);
+}
+
+.alert-success {
+  background-color: var(--success);
+  border-color: var(--success);
+}
+
+.alert-warning {
+  background-color: var(--primary);
+  border-color: var(--primary);
+}
+
+.alert-info {
+  background-color: var(--tertiary);
+  border-color: var(--tertiary);
+}
+
+a {
+  color: var(--primary);
+}
+
+a:hover {
+  color: var(--logo);
+  text-decoration: none;
+}
+
+/* Social buttons */
+.kc-social-item {
+  background-color: var(--tertiary) !important;
+  border-color: var(--border) !important;
+  color: var(--content) !important;
+}
+
+.kc-social-item:hover {
+  background-color: var(--tertiary-light) !important;
+}
+
+/* Password visibility */
+.pf-c-form-control-static {
+  color: var(--content);
+}
+
+/* Checkbox and radio */
+.pf-c-check__label, .pf-c-radio__label {
+  color: var(--content);
+}
+
+/* Dropdown menus */
+.pf-c-dropdown__menu {
+  background-color: var(--base-secondary);
+  border-color: var(--border);
+}
+
+.pf-c-dropdown__menu-item {
+  color: var(--content);
+}
+
+.pf-c-dropdown__menu-item:hover {
+  background-color: var(--tertiary);
+}
+
+/* Footer */
+.login-pf-footer {
+  background-color: var(--base);
+  color: var(--content);
+}
