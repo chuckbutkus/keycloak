@@ -202,3 +202,83 @@ a:hover {
   background-color: var(--base);
   color: var(--content);
 }
+
+/* Utility classes for email verification page */
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.max-w-md {
+  max-width: 28rem;
+}
+
+.gap-2 {
+  gap: 0.5rem;
+}
+
+.gap-6 {
+  gap: 1.5rem;
+}
+
+.p-8 {
+  padding: 2rem;
+}
+
+.mt-3 {
+  margin-top: 0.75rem;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.text-gray-500 {
+  color: #9099AC;
+}
+
+.border {
+  border-width: 1px;
+  border-style: solid;
+}
+
+.border-tertiary {
+  border-color: var(--tertiary);
+}
+
+.bg-base-secondary {
+  background-color: var(--base-secondary);
+}
